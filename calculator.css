@@ -5,6 +5,13 @@
   line-height: 5%;
 }
 
+body {
+  width: 100vw;
+  max-width: 100%;
+  padding-top: 30px;
+  margin: 0;
+}
+
 p.input {
   padding: 0 20px;
   text-align: right;
@@ -14,14 +21,14 @@ p.log {
   padding: 0 20px;
   text-align: right;
   color: rgb(51, 50, 51);
-  font-size: 50%;
+  font-size: 80%;
   font-style: italic;
 }
 
 div.calculatorContainer {
   position: relative;
-  width: 450px;
-  height: 645px;
+  width: 462px;
+  height: 680px;
   background-color: #000000;
   background: linear-gradient(to bottom right, #000000, #505050);
   border-radius: 35px;
@@ -33,7 +40,7 @@ div.screen {
   position: absolute;
   width: 340px;
   height: 90px;
-  background-color: #698B22;
+  background-color: #c3d699;
   border-radius: 20px;
   margin-left: 65px;
   margin-top: 40px;
@@ -98,9 +105,11 @@ button:active {
 /* footer */
 footer {
   margin-top: 20px;
-  background-color: #4b4848;
-  color: #fff;
+  background-color: #bcb4b4;
+  color: black;
+  font-weight: bold;
   padding: 20px 0;
+  width: 100vw;
 }
 
 .footer-content {
@@ -115,8 +124,8 @@ footer {
 }
 
 .social-icons a img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -126,5 +135,15 @@ footer {
 
 .copyright {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+/* Media query for tablets and smaller devices */
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: red;
+  }
+  p{
+    color: red;
+  }
 }
