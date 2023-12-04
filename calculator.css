@@ -10,6 +10,10 @@ body {
   max-width: 100%;
   padding-top: 30px;
   margin: 0;
+  background-color: #fff;
+  opacity: 1;
+  background-image: radial-gradient(#e1d3d3 1.1500000000000001px, #fff 1.1500000000000001px);
+  background-size: 23px 23px;
 }
 
 p.input {
@@ -105,5 +109,10 @@ button:active {
 
 /* Media query for tablets and smaller devices */
 @media only screen and (max-width: 472px) {
-  
+  body{
+    background-color: red;
+  }
+  p{
+    color: red;
+  }
 }
