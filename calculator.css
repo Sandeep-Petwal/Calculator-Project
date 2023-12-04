@@ -102,48 +102,8 @@ button:active {
 }
 
 
-/* footer */
-footer {
-  margin-top: 20px;
-  background-color: #bcb4b4;
-  color: black;
-  font-weight: bold;
-  padding: 20px 0;
-  width: 100vw;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icons a img {
-  width: 35px;
-  height: 35px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.social-icons a:hover img {
-  transform: scale(1.2);
-}
-
-.copyright {
-  margin-top: 20px;
-  font-size: 16px;
-}
 
 /* Media query for tablets and smaller devices */
-@media only screen and (max-width: 600px) {
-  body{
-    background-color: red;
-  }
-  p{
-    color: red;
-  }
+@media only screen and (max-width: 472px) {
+  
 }
