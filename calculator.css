@@ -1,0 +1,130 @@
+* {
+  user-select: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  line-height: 5%;
+}
+
+p.input {
+  padding: 0 20px;
+  text-align: right;
+}
+
+p.log {
+  padding: 0 20px;
+  text-align: right;
+  color: rgb(51, 50, 51);
+  font-size: 50%;
+  font-style: italic;
+}
+
+div.calculatorContainer {
+  position: relative;
+  width: 450px;
+  height: 645px;
+  background-color: #000000;
+  background: linear-gradient(to bottom right, #000000, #505050);
+  border-radius: 35px;
+  margin: auto;
+  box-shadow: 3px 3px 35px #000000;
+}
+
+div.screen {
+  position: absolute;
+  width: 340px;
+  height: 90px;
+  background-color: #698B22;
+  border-radius: 20px;
+  margin-left: 65px;
+  margin-top: 40px;
+  box-shadow: inset 1px -1px 8px #000000;
+}
+
+div.buttons {
+  position: absolute;
+  width: 360px;
+  height: 470px;
+  margin-left: 55px;
+  margin-top: 150px;
+}
+
+button {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 72px;
+  height: 72px;
+  border: none;
+  border-radius: 35px;
+  color: #000000;
+  box-shadow: 3px 3px 35px #000000;
+  outline-style: none;
+}
+
+button.reset {
+  background-color: rgb(112, 5, 5);
+}
+
+button.equals {
+  background-color: #CD6839;
+}
+
+button.percentage {
+  background-color: #505050;
+}
+
+button.operator {
+  background-color: #505050;
+}
+
+button.number {
+  background-color: #C0C0C0;
+}
+
+button:hover {
+  background-color: rgb(51, 50, 51);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:active {
+  width: 67px;
+  height: 67px;
+  margin-left: 15px;
+  margin-bottom: -500px;
+  font-size: 110%;
+}
+
+
+/* footer */
+footer {
+  margin-top: 20px;
+  background-color: #4b4848;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}
